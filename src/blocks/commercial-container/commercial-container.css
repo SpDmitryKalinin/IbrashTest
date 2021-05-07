@@ -1,0 +1,11 @@
+.commercial-container{
+    width: 100vw;
+    margin-top: 45px;
+    background-color: var(--gray-back);
+}
+
+@media screen and (max-width: 767px){
+    .commercial-container{
+        margin-top:56px;
+    }
+}

@@ -1,0 +1,13 @@
+.quote__icon{
+    align-self: flex-start;
+    position: relative;
+    top: -17px;
+    margin-right: 24px;
+}
+
+@media screen and (max-width: 767px){
+    .quote__icon{
+        top: -7px;
+        margin-right: 20px;
+    }
+}

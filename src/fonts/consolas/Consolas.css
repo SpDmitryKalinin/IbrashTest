@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Consolas';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Consolas.woff2") format("woff2"),
+         url("Consolas.woff") format("woff");
+  }
+  

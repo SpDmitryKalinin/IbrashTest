@@ -1,0 +1,46 @@
+.header__title{
+    width: 100%;
+    color: var(--blue);
+    text-align: center;
+    font-family: 'Consolas', Arial, sans-serif;
+    margin-top: 80px;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 767px){
+    .header__title{
+        margin-top: 40px;
+        font-size: 23px;
+        line-height: 25px;
+    }
+}
+
+.header__title::before, .header__title::after{ 
+    content: "";
+    height: 1px;
+    background-color: #DBDBDB;
+    width: 100%;
+}
+
+.header__title::before{
+    margin-right: 28px;
+}
+
+.header__title::after{
+    margin-left: 28px;
+}
+
+@media screen and (max-width: 767px){
+    .header__title::before{
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    .header__title::after{
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+}

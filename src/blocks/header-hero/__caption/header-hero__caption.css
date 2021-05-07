@@ -1,0 +1,14 @@
+.header-hero__caption{
+    margin-top: 20px;
+    color: #202326;
+    font-family: Arial , sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+@media screen and (max-width: 767px){
+    .header-hero__caption{
+        margin: 20px 20px 40px 20px;
+    }
+}

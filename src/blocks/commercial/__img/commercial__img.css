@@ -1,0 +1,11 @@
+.commercial__img{
+    height: 200px;
+    margin-top: 17px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 767px){
+    .commercial__img{
+        object-fit: cover;
+    }
+}

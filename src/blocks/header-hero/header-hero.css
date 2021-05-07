@@ -1,0 +1,14 @@
+.header-hero{
+    width: 100%;
+    margin: 64px 0 0 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 767px){
+    .header-hero{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+    }
+}

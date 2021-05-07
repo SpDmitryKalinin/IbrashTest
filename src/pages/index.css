@@ -1,0 +1,54 @@
+/*Normilize*/
+@import url(../vendor/normalize.css);
+
+/*fonts*/
+@import url(../fonts/consolas/Consolas.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/*page*/
+@import url(../blocks/page/page.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__line/header__line.css);
+
+/*header-hero*/
+@import url(../blocks/header-hero/header-hero.css);
+@import url(../blocks/header-hero/__container-picture/header-hero__container-picture.css);
+@import url(../blocks/header-hero/__caption/header-hero__caption.css);
+
+/*main*/
+@import url(../blocks/main/main.css);
+
+/*quote-container*/
+@import url(../blocks/qute-container/quote-container.css);
+@import url(../blocks/qute-container/__title/quote-container__title.css);
+
+/*quote*/
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__icon/quote__icon.css);
+@import url(../blocks/quote/__text/quote__text.css);
+@import url(../blocks/quote/__author/quote__author.css);
+
+/*commercial-container*/
+@import url(../blocks/commercial-container/commercial-container.css);
+
+/*commercial*/
+@import url(../blocks/commercial/commercial.css);
+@import url(../blocks/commercial/__title/commercial__title.css);
+@import url(../blocks/commercial/__img/commercial__img.css);
+
+:root{
+    --blue: #0062FF;
+    --gray-back: #EDEDED;
+}
+
+p, h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}

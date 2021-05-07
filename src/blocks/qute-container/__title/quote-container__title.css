@@ -1,0 +1,14 @@
+.quote-container__title{
+    font-family: 'Consolas', Arial, sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 767px){
+    .quote-container__title{
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 36px;
+    }
+}
