@@ -1,0 +1,8 @@
+.form-grid__select{
+    appearance: none;
+    overflow: hidden;
+    background-image: url('../../../images/angle-arrow-up.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: right 20px;
+}

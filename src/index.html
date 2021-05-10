@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="vendor/normalize.css" type="text/css" rel="stylesheet"> 
     <link href="pages/index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>IBrashTest</title>
 </head>
 <body>
@@ -46,9 +47,36 @@
 
             <section class="form-section">
                 <form class="form-rate">
-                    <h2 class="form-rate__title">Оцените статью</h2>
-                    <div class="form-rate__stars"></div>
-                    <h3 class="form-rate__subtitle">Добавить комментарий к книге</h3>
+                    <fieldset class="form-rate__field">
+                        <legend class="form-rate__title">Оцените статью</legend>
+                        <div class="rating-area">
+                            <input type="radio" id="star-5" name="rating" value="5">
+                            <label for="star-5" title="Оценка «5»"></label>	
+                            <input type="radio" id="star-4" name="rating" value="4">
+                            <label for="star-4" title="Оценка «4»"></label>    
+                            <input type="radio" id="star-3" name="rating" value="3">
+                            <label for="star-3" title="Оценка «3»"></label>  
+                            <input type="radio" id="star-2" name="rating" value="2">
+                            <label for="star-2" title="Оценка «2»"></label>    
+                            <input type="radio" id="star-1" name="rating" value="1">
+                            <label for="star-1" title="Оценка «1»"></label>
+                        </div>
+                        <h2 class="form-rate__subtitle">Добавить комментарий к книге</h2>
+                        <div class="form-grid">
+                            <input placeholder="Имя" class="form-grid__input" type="text" name="name"/>
+                            <input placeholder="E-mail" class="form-grid__input" type="email" name="mail"/>
+                            <select class="form-grid__input form-grid__select">
+                                <option style="display: none;">Выберите книгу</option>
+                                <option class="form-grid__option">JavaScript ниндзя</option>
+                                <option class="form-grid__option">Pragmatic Guide to JavaScript</option>
+                                <option class="form-grid__option">Pro JavaScript Techniques</option>
+                                <option class="form-grid__option">Выразительный JavaScript</option>
+                            </select>
+                            <textarea placeholder="Ваш отзыв" class="form-grid__input form-grid__text-area"></textarea>
+                            <button class="form-grid__submit-button" type="submit">Отправить</button>
+                        </div>
+                    </fieldset>
+                    
                 </form>
             </section>
         </main>

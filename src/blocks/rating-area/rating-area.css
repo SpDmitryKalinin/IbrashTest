@@ -1,0 +1,62 @@
+.rating-area {
+	overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .rating-area {
+        margin-top: 15px;
+    }
+}
+
+.rating-area:not(:checked) > input {
+	display: none;
+}
+
+.rating-area:not(:checked) > label {
+    content: '';
+    background-image: url(../../images/star.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	float: right;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.rating-area:not(:checked) > label:before {
+	content: '';
+    background-image: url(../../images/star.png);
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.rating-area > input:checked ~ label {
+	content: '';
+    background-image: url(../../images/staractive.png);
+    background-repeat: no-repeat;
+    width: 25px;
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	content: '';
+    background-image: url(../../images/staractive.png);
+    background-repeat: no-repeat;
+}
+
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	content: '';
+    background-image: url(../../images/staractive.png);
+}
+.rate-area > label:active {
+	position: relative;
+}

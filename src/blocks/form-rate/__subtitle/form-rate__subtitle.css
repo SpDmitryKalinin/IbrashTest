@@ -1,0 +1,14 @@
+.form-rate__subtitle{
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 767px){
+    .form-rate__subtitle{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}

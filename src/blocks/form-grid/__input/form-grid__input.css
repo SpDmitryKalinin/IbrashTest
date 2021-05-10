@@ -1,0 +1,8 @@
+.form-grid__input{
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 50px;
+    padding-left: 20px;
+}

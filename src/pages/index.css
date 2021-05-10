@@ -39,9 +39,34 @@
 @import url(../blocks/commercial/__title/commercial__title.css);
 @import url(../blocks/commercial/__img/commercial__img.css);
 
+/*conclusion*/
+@import url(../blocks/conclusion/conclusion.css);
+@import url(../blocks/conclusion/__title/conclusion__title.css);
+@import url(../blocks/conclusion/__text/conclusion__text.css);
+
+/*star*/
+@import url(../blocks/rating-area/rating-area.css);
+
+/*form-section*/
+@import url(../blocks/form-section/form-section.css);
+@import url(../blocks/form-rate/form-rate.css);
+@import url(../blocks/form-rate/__title/form-rate__title.css);
+@import url(../blocks/form-rate/__subtitle/form-rate__subtitle.css);
+@import url(../blocks/form-rate/__field/form-rate__field.css);
+
+/*form-grid*/
+@import url(../blocks/form-grid/form-grid.css);
+@import url(../blocks/form-grid/__input/form-grid__input.css);
+@import url(../blocks/form-grid/__select/form-grid__select.css);
+@import url(../blocks/form-grid/__text-area/form-grid__text-area.css);
+@import url(../blocks/form-grid/__submit-button/form-grid__submit-submit.css);
+
+
+
 :root{
     --blue: #0062FF;
     --gray-back: #EDEDED;
+    --gold-star: #FFB400;
 }
 
 p, h1, h2{
@@ -52,3 +77,25 @@ p, h1, h2{
 body{
     margin: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
