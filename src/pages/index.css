@@ -61,7 +61,12 @@
 @import url(../blocks/form-grid/__text-area/form-grid__text-area.css);
 @import url(../blocks/form-grid/__submit-button/form-grid__submit-submit.css);
 
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__slider/footer__slider.css);
 
+@import url(../blocks/swiper/swiper.css);
 
 :root{
     --blue: #0062FF;
@@ -77,13 +82,6 @@ p, h1, h2{
 body{
     margin: 0;
 }
-
-
-
-
-
-
-
 
 
 
