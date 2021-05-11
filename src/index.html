@@ -17,18 +17,18 @@
             <h1 class="header__title">Путь JavaScript</h1>
             <figure class="header-hero">
                 <div class="header-hero__container-picture">
-                    <img class="header-hero__picture" src="images/headerbooks.png" alt="Четыре книги по изучению JavaScript"/>
+                    <img class="header-hero__picture" src="<%=require('./images/headerbooks.png')%>" alt="Четыре книги по изучению JavaScript"/>
                 </div>
                 <figcaption class="header-hero__caption">Можно выделить три основных направления для прогресса JavaScript</figcaption>
             </figure>
             <hr class="header__line"/>
         </header>
-
+        
         <main class="main">
             <section class="quote-container">
                 <h2 class="quote-container__title">Серверный JavaScript</h2>
                 <blockquote class="quote">
-                    <img class="quote__icon" src="./images/quatationmark.png" alt="Значок цитаты"/>
+                    <img class="quote__icon" src="<%=require('./images/quatationmark.png')%>" alt="Значок цитаты"/>
                     <p class="quote__text">Разработчики и клиенты часто неправильно понимают, что такое система. Они видят графический интерфейс и думают, что он и есть система. Они определяют систему в терминах графического интерфейса и считают, что должны сразу начать работу с графическим интерфейсом. Они не понимают важнейшего принципа: ввод/вывод не важен.
                         <br/><span class="quote__author">— Р. Мартин</span>
                     </p>
@@ -38,7 +38,7 @@
             <section class="commercial-container">
                 <div class="commercial">
                     <h2 class="commercial__title">Реклама на <a class="commercial__link" href="blabla.com">blabla.com</a></h2>
-                    <img class="commercial__img" src="./images/commercialbook.png" alt="Пять книг на полке, одна из них раскрыта"/>
+                    <img class="commercial__img" src="<%=require('./images/commercialbook.png')%>" alt="Пять книг на полке, одна из них раскрыта"/>
                 </div>
             </section>
 
@@ -87,19 +87,19 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="slide_item">
-                            <img class="swiper-slide__img" src="images/sliderreact.png" alt="Логотип React"/>
+                            <img class="swiper-slide__img" src="<%=require('./images/sliderreact.png')%>" alt="Логотип React"/>
                             <h3 class="swiper-slide__title">События жизненного цикла ReactJS</h3>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="slide__item">
-                            <img class="swiper-slide__img" src="images/slidergrid.png" alt="Демонстрация свойства grid"/>
+                            <img class="swiper-slide__img" src="<%=require('./images/slidergrid.png')%>" alt="Демонстрация свойства grid"/>
                             <h3 class="swiper-slide__title">CSS Grids. Полное руководство</h3>
                         </div>
-                    </div>
+                </div>
                     <div class="swiper-slide">
                         <div class="slide_item">
-                            <img class="swiper-slide__img" src="images/sliderjs.png" alt="JavaScript"/>
+                            <img class="swiper-slide__img" src="<%=require('./images/sliderjs.png')%>" alt="JavaScript"/>
                             <h3 class="swiper-slide__title">Асинхронность в JavaScript</h3>
                         </div>
                         

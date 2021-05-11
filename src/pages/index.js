@@ -1,3 +1,4 @@
+import './index.css';
 const swiper = new Swiper('.footer__slider', {
     pagination:{
         el: '.swiper-pagination',
