@@ -1,4 +1,5 @@
 .header-hero__container-picture{
     width: 100%;
-    overflow-x: auto;
+    overflow: hidden;
+    object-fit: cover;
 }

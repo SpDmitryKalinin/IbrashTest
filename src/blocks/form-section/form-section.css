@@ -1,6 +1,8 @@
 .form-section{
     margin-top: 75px;
-    width: 99vw;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
     background-color: var(--gray-back);
     display: flex;
     justify-content: center;

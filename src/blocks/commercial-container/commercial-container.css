@@ -1,5 +1,7 @@
 .commercial-container{
-    width: 99vw;
+    width: 100vw;
+    max-width: 100%;
+    overflow: hidden;
     margin-top: 45px;
     background-color: var(--gray-back);
 }
