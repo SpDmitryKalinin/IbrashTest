@@ -12,6 +12,6 @@ const swiper = new Swiper('.footer__slider', {
             slidesPerView: 3,
             spaceBetween: 30,
         }
-    }
+    },
 });
   
