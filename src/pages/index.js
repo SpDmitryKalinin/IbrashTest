@@ -1,4 +1,4 @@
-import './index.css';
+//import './index.css';
 const swiper = new Swiper('.footer__slider', {
     pagination:{
         el: '.swiper-pagination',
@@ -10,7 +10,7 @@ const swiper = new Swiper('.footer__slider', {
         },
         720:{
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 30
         }
     },
 });
